@@ -31,4 +31,4 @@ export PYTHON=python2.7
 set PYTHON=python2.7
 ````
 
-[ref](https://stackoverflow.com/questions/20454199/how-to-use-a-different-version-of-python-during-npm-install)
+[Python3 build configs](https://stackoverflow.com/questions/20454199/how-to-use-a-different-version-of-python-during-npm-install)
