@@ -5,11 +5,25 @@
 
 To run the example:
 
-- `git clone https://github.com/master-atul/blog-addons-example`
+- `git clone https://github.com/chrisJohn404/napi-nodejs-addon-example`
+- `cd napi-nodejs-addon-example`
 - `npm install`
 - `npm run build` //This is mostly not needed. But just in case
-- `node index.js`
 
+```bash
+$ node index.js
+addon {
+  hello: [Function (anonymous)],
+  add: [Function (anonymous)],
+  ClassExample: [Function: ClassExample]
+}
+hello  Hello World
+add  15
+Initial value :  4.3
+After adding 3.3 :  7.6
+Testing class initial value for derived instance
+7.6
+```
 
 Hope this helps someone 🎉🌮
 
@@ -29,4 +43,4 @@ export PYTHON=python2.7
 set PYTHON=python2.7
 ````
 
-[Python3 build configs](https://stackoverflow.com/questions/20454199/how-to-use-a-different-version-of-python-during-npm-install)
+Ref: [Python3 Build Configs](https://stackoverflow.com/questions/20454199/how-to-use-a-different-version-of-python-during-npm-install)
