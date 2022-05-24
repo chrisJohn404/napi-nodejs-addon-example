@@ -1,7 +1,5 @@
 # NAPI NodeJS Addon Example
 
-This repo contains the example code for the blog post:
-
 ***Beginners guide to writing NodeJS Addons using C++ and N-API (node-addon-api)***
 
 
