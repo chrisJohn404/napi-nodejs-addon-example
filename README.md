@@ -8,7 +8,7 @@ To run the example:
 - `git clone https://github.com/chrisJohn404/napi-nodejs-addon-example`
 - `cd napi-nodejs-addon-example`
 - `npm install`
-- `npm run build` //This is mostly not needed. But just in case
+- `npm run build` //This is mostly not needed. But just in case.  Then:
 
 ```bash
 $ node index.js
