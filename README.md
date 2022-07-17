@@ -28,6 +28,7 @@ Testing class initial value for derived instance
 Hope this helps someone 🎉🌮
 
 Troubleshooting Note:
+
 5/23/2022, if build fails due to python and node-gyp dependencies.
 
 ```bash
