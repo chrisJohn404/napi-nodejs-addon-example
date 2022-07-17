@@ -27,8 +27,8 @@ Testing class initial value for derived instance
 
 Hope this helps someone 🎉🌮
 
-NOTE:
-5/23/2022, build fails due to python and node-gyp dependencies.
+Troubleshooting Note:
+5/23/2022, if build fails due to python and node-gyp dependencies.
 
 ```bash
 $ npm install --python=/usr/local/bin/python2
