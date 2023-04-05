@@ -1,3 +1,10 @@
+/*
+NAPI-Node.JS Addon Example
+Author: Chris Johnson (chrisjohn404)
+July 2022
+License: GPLv2
+*/
+
 #include "actualclass.h"
 
 ActualClass::ActualClass(double value){
@@ -14,3 +21,6 @@ double ActualClass::add(double toAdd)
   this->value_ += toAdd;
   return this->value_;
 }
+
+
+/* Author(s): Chris Johnson (chrisjohn404) */

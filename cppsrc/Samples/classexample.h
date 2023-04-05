@@ -1,3 +1,10 @@
+/*
+NAPI-Node.JS Addon Example
+Author: Chris Johnson (chrisjohn404)
+July 2022
+License: GPLv2
+*/
+
 #include <napi.h>
 #include "actualclass.h"
 
@@ -13,3 +20,6 @@ class ClassExample : public Napi::ObjectWrap<ClassExample> {
   Napi::Value Add(const Napi::CallbackInfo& info);
   ActualClass *actualClass_;
 };
+
+
+/* Author(s): Chris Johnson (chrisjohn404) */

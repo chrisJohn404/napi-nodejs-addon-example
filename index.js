@@ -1,3 +1,10 @@
+/*
+NAPI-Node.JS Addon Example
+Author: Chris Johnson (chrisjohn404)
+July 2022
+License: GPLv2
+*/
+
 const testAddon = require('./build/Release/testaddon.node');
 console.log('addon',testAddon);
 console.log('hello ', testAddon.hello());
@@ -14,4 +21,5 @@ console.log(newFromExisting.getValue());
 
 module.exports = testAddon;
 
-// Base from: https://morioh.com/p/e1a6f79af449
+
+/* Author(s): Chris Johnson (chrisjohn404) */

@@ -1,3 +1,10 @@
+/*
+NAPI-Node.JS Addon Example
+Author: Chris Johnson (chrisjohn404)
+July 2022
+License: GPLv2
+*/
+
 #include "classexample.h"
 
 Napi::FunctionReference ClassExample::constructor;
@@ -65,3 +72,5 @@ Napi::Value ClassExample::Add(const Napi::CallbackInfo& info) {
 ActualClass* ClassExample::GetInternalInstance() {
   return this->actualClass_;
 }
+
+/* Author(s): Chris Johnson (chrisjohn404) */

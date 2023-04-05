@@ -1,3 +1,10 @@
+/*
+NAPI-Node.JS Addon Example
+Author: Chris Johnson (chrisjohn404)
+July 2022
+License: GPLv2
+*/
+
 #include "functionexample.h"
 
 std::string functionexample::hello(){
@@ -34,3 +41,6 @@ Napi::Object functionexample::Init(Napi::Env env, Napi::Object exports) {
     exports.Set("add", Napi::Function::New(env, functionexample::AddWrapped));
     return exports;
 }
+
+
+/* Author(s): Chris Johnson (chrisjohn404) */

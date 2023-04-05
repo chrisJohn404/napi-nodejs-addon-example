@@ -1,3 +1,10 @@
+/*
+NAPI-Node.JS Addon Example
+Author: Chris Johnson (chrisjohn404)
+July 2022
+License: GPLv2
+*/
+
 #include <napi.h>
 
 namespace functionexample {
@@ -11,3 +18,6 @@ namespace functionexample {
     Napi::Object Init(Napi::Env env, Napi::Object exports);
     
 }
+
+
+/* Author(s): Chris Johnson (chrisjohn404) */
