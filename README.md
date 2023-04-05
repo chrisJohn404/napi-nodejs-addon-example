@@ -2,6 +2,8 @@
 
 ***Beginners guide to writing NodeJS Addons using C++ and N-API (node-addon-api)***
 
+Node.js provides JavaScript developers the ability to write C++ code and then trigger it to be executed in JavaScript for performance and flexibility purposes.  Node-API is actively being developed, experimental through v9, however it has been maintained consistently since v10.  The general code structure comes from following the [nodejs/node-addon-examples](https://github.com/nodejs/node-addon-examples) referenced from [nodejs/node-addon-api](https://github.com/nodejs/node-addon-api).
+
 
 To run the example:
 

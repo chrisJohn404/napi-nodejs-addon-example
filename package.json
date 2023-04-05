@@ -1,6 +1,6 @@
 {
   "name": "napi-nodejs-addon-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js NAPI based example for developing native C++ addons.",
   "main": "index.js",
   "author": {
