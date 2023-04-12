@@ -2,7 +2,17 @@
 
 ***Beginners guide to writing NodeJS Addons using C++ and N-API (node-addon-api)***
 
+
 Node.js provides JavaScript developers the ability to write C++ code and then trigger it to be executed in JavaScript for performance and flexibility purposes.  Node-API is actively being developed, experimental through v9, however it has been maintained consistently since v10.  The general code structure comes from following the [nodejs/node-addon-examples](https://github.com/nodejs/node-addon-examples) referenced from [nodejs/node-addon-api](https://github.com/nodejs/node-addon-api).
+
+
+```mermaid
+graph TD;
+    Index.js-->cppsrc/main.cpp;
+    cppsrc/main.cpp-->cppsrc/Samples/functionexample.h/.cpp;
+    cppsrc/main.cpp-->cppsrc/Samples/classexample.h/.cpp;
+    cppsrc/Samples/classexample.h/.cpp-->cppsrc/Samples/actualclass.h/.cpp;
+```
 
 
 To run the example:
@@ -10,7 +20,12 @@ To run the example:
 - `git clone https://github.com/chrisJohn404/napi-nodejs-addon-example`
 - `cd napi-nodejs-addon-example`
 - `npm install`
-- `npm run build` //This is mostly not needed. But just in case.  Then:
+- `npm run build`
+- `npm start`
+
+
+
+//This is mostly not needed. But just in case.  Then:
 
 ```
 $ node index.js
@@ -47,3 +62,5 @@ set PYTHON=python2.7
 ````
 
 Ref: [Python3 Build Configs](https://stackoverflow.com/questions/20454199/how-to-use-a-different-version-of-python-during-npm-install)
+
+
